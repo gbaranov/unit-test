@@ -116,9 +116,11 @@ const testObject = {
 }
 
 describe('Object check', function () {
-    it('Should be an object with property name - age', function () {
+    it('Should be an objet with property name - age', function () {
         expect(testObject).which.is.an('object').have.a.property('age');
         expect(testObject).has.a.property('lastName');
         expect(testObject).has.a.property('lastName').empty;
     });
 })
+
+//comment
