@@ -122,5 +122,3 @@ describe('Object check', function () {
         expect(testObject).has.a.property('lastName').empty;
     });
 })
-
-//comment
