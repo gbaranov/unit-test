@@ -115,18 +115,6 @@ const testObject = {
     age: 20
 }
 
-const testObject2 = {
-    firstName: 'John',
-    lastName: '',
-    age: 20
-}
-
-const testObject3 = {
-    firstName: 'John',
-    lastName: '',
-    age: 20
-}
-
 describe('Object check', function () {
     it('Should be an objet with property name - age', function () {
         expect(testObject).which.is.an('object').have.a.property('age');
